@@ -31,7 +31,6 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: center;
 }
 
 *{
@@ -103,3 +102,34 @@ nav button{
     letter-spacing: 0%;
     text-align: center;
     }
+main, footer{
+    max-width: 1140px;
+}
+
+/* why web development */
+.why-web-dev{
+    margin-top: 74px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.title-container{
+    margin-bottom: 48px;
+}
+.cause{
+    display: flex;
+    /* justify-content:end; */
+    /* padding: 0; */
+    background-color:white;
+    margin-bottom: 32px;
+    border-radius: 16px;
+}
+.info{
+    width: 50%;
+    text-align: left;
+}
+.img-container {
+    /* justify-content: right;
+    align-items: center; */
+}
