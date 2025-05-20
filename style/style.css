@@ -129,7 +129,27 @@ main, footer{
     width: 50%;
     text-align: left;
 }
-.img-container {
-    /* justify-content: right;
-    align-items: center; */
+
+/* inspiration section */
+.inspiration{
+    margin: 90px 0 150px 0;
+    text-align: center;
 }
+.i-frame-container{
+    margin: 50px;
+    border-radius: 16px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 48px;
+}
+.card{
+    width: 24%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
