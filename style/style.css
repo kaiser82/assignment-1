@@ -102,7 +102,7 @@ nav button{
     letter-spacing: 0%;
     text-align: center;
     }
-main, footer{
+main{
     max-width: 1140px;
 }
 
@@ -176,4 +176,60 @@ main, footer{
 }
 .target-content{
     padding: 10px;
+}
+
+/* footer{
+    width: 1440px;
+    
+} */
+.footer-support{
+    width: 1140px;
+    height: 313px;
+    background-image: url(../assets/handshake.jpg);
+    /* padding: 64px 48px; */
+    margin-bottom: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.footer-support h3{
+    color: white;
+}
+.footer-support p{
+    color: white;
+}
+.input-container{
+    margin-top: 24px;
+}
+.footer-support input{ 
+width: 548px;
+height: 57px;
+padding: 0 20px 0 20px;
+margin: 0px 16px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.footer-support button{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+.footer-social{
+    height: 100px;
+    width: 1440px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    
+    display: flex;
+    justify-content: space-between;
 }
